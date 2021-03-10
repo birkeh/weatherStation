@@ -5,6 +5,9 @@
 
 #include "ctinkerforge.h"
 #include "cairquality.h"
+#include "coutdoorweather.h"
+
+#include "cdisplayvalues.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -19,10 +22,15 @@ public:
 	cMainWindow(QWidget *parent = nullptr);
 	~cMainWindow();
 
+	Ui::cMainWindow *getUI();
+
 private:
 	Ui::cMainWindow *ui;
 
 	cTinkerForge*		m_tinkerForge;
 	cAirQuality*		m_airQuality;
+	cOutdoorWeather*	m_outdoorWeather;
+	cDisplayValues*		m_displayValues;
 };
+
 #endif // CMAINWINDOW_H

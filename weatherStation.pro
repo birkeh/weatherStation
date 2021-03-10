@@ -10,6 +10,8 @@ CONFIG += c++11
 
 SOURCES += \
     cairquality.cpp \
+    cdisplayvalues.cpp \
+    coutdoorweather.cpp \
     ctinkerforge.cpp \
     main.cpp \
     cmainwindow.cpp \
@@ -20,7 +22,9 @@ SOURCES += \
 
 HEADERS += \
     cairquality.h \
+    cdisplayvalues.h \
     cmainwindow.h \
+    coutdoorweather.h \
     ctinkerforge.h \
     tinkerforge/brick_master.h \
     tinkerforge/bricklet_air_quality.h \
