@@ -13,7 +13,7 @@ cMainWindow::cMainWindow(QWidget *parent)
 {
 	ui->setupUi(this);
 
-	m_tinkerForge		= new cTinkerForge("192.168.0.208", 4223);
+	m_tinkerForge		= new cTinkerForge("192.168.0.101", 4223);
 	m_airQuality		= new cAirQuality(m_tinkerForge, "QqD");
 	m_outdoorWeather	= new cOutdoorWeather(m_tinkerForge, "SwS", 84);
 

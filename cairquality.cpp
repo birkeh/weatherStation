@@ -41,7 +41,7 @@ cAirQuality::~cAirQuality()
 	air_quality_destroy(&m_airQuality);
 }
 
-qint16 cAirQuality::collect()
+qint32 cAirQuality::collect()
 {
 	uint8_t		iaq_index_acuracy;
 	int32_t		temperature;

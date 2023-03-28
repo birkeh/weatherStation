@@ -11,6 +11,7 @@ CONFIG += c++11
 SOURCES += \
     cairquality.cpp \
     cdisplayvalues.cpp \
+    cmasterbrick.cpp \
     coutdoorweather.cpp \
     ctinkerforge.cpp \
     main.cpp \
@@ -24,6 +25,7 @@ HEADERS += \
     cairquality.h \
     cdisplayvalues.h \
     cmainwindow.h \
+    cmasterbrick.h \
     coutdoorweather.h \
     ctinkerforge.h \
     tinkerforge/brick_master.h \

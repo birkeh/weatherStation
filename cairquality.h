@@ -43,7 +43,7 @@ public:
 	cAirQuality(cTinkerForge* tinkerForge, const QString& uid, QObject* object = nullptr);
 	~cAirQuality();
 
-	qint16 collect();
+	qint32			collect();
 
 	QString			uid();
 	qint32			lastError();
@@ -95,6 +95,8 @@ private:
 	QString			m_hardwareVersion;
 	QString			m_firmwareVersion;
 	quint16			m_deviceIdentifier;
+
+signals:
 };
 
 Q_DECLARE_METATYPE(cAirQuality*)
